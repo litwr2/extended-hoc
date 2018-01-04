@@ -1,0 +1,43 @@
+#comments!
+i=1 #first command
+#if, do
+if (i < 7) {
+  do {
+     print i," "
+     i = i + 1
+  } while (i <= 7)
+}
+print "\n---------------\n"
+
+#for
+for(i = 7 (i > 0) i = i - 1) print i, " "
+print "\n---------------\n"
+
+#for, break
+for(i = 7 (i > 0) i = i - 1) {
+  print i, " "
+  if (i < 4)break
+}
+print "\n---------------\n"
+
+#while, break
+while(i < 10){
+  print i
+  break
+}
+print "\n---------------\n"
+
+#for, continue
+for (i = 7 (i > 0) i = i - 1) {
+  if (i < 4) continue
+  print i, " "
+}
+print "\n---------------\n"
+
+#while, continue
+while(i<10){
+  i = i + 1
+  if (i < 5) continue
+  print i, " "
+}
+print "\n---------------\n"

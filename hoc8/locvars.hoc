@@ -1,0 +1,25 @@
+a = b = 7
+print "automatic\n"
+proc fa() {
+  auto a, b
+  a = b = $1
+  print "  before ", $1, a, b, "\n"
+  if ($1 > 1) {
+    fa($1 - 1)
+  }
+  print "  after ", $1, a, b, "\n"
+}
+fa(3)
+print "static\n"
+proc fs() {
+  static a, b
+  a = b = $1
+  print "  before ", $1, a, b, "\n"
+  if ($1 > 1) {
+    fs($1 - 1)
+  }
+  print "  after ", $1, a, b, "\n"
+}
+fs(3)
+print "global\n"
+print "  ", a, b, "\n"

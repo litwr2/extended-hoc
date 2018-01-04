@@ -1,0 +1,21 @@
+The extension made:
+COMMENTS
+do
+for
+PROPER &&, ||
+break continue
++= -= ++ -- *= /= ^=
+local/static
+local/auto
+ARRAYS w/DELETE
+simple disasm/tracer
+
+
+Some possible future extensions:
+unless until STATEMENTS
+const
+DELETE LOST STRINGS
+dynamic stacks and array for prog
+,
+?:
+goto
