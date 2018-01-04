@@ -1,6 +1,6 @@
 # extended-hoc
 
-It is a simple programming language step-by-step implementation using Bison or Yacc power.  The usage of Flex is optional but recommended.  The hoc language is discribed in a book The Unix Programming Environment (Prentice-Hall Software Series) by Brian W. Kernighan and Rob Pike.  The presented implementation uses some advantages of C++ language and finally implements more advanced and fast language.
+It is a simple programming language step-by-step implementation using Bison or Yacc power.  The usage of Flex is optional but recommended.  The hoc language is described in a book The Unix Programming Environment (Prentice-Hall Software Series) by Brian W. Kernighan and Rob Pike.  The presented implementation uses some advantages of C++ language and finally implements more advanced and fast language.
 
 ## Step 1
 It is a calculator for the integer arithmetic.  All five base operations (+, -, *, /, ^) are implemented.
@@ -24,5 +24,5 @@ It is the statements _if_, _while_, _print_ and _{}_ (grouping) implementation. 
 It is adding the subroutines (functions and procedures) and required for this _return_ statement.  We have also improved _print_ statement making it multi-argument with possibility to use text strings in it.  Besides that the input operator _read_ is implemented.  A test file is provided to check the new features.  There is also a simple tracer-disassembler realized.
 
 ## Step 8
-There is a bunch of improvements and new features here: comments, C-like logical _and_ and _or_, _do_-statement, _for_-statement, _break_-statement, _continue_-statement, more C-like assignement-operators (+=, -=, *=, /=, ^=, ++, --), automatic and static local variables, arrays (hashes) with the delete element operator.  Several test files are made.  This level of implementation can easily be expanded by some new operators and features, for example, _until_ and _unless_ statements, more C-like operators (, and ?:), ...
+There is a bunch of improvements and new features here: comments, C-like logical _and_ and _or_, _do_-statement, _for_-statement, _break_-statement, _continue_-statement, more C-like assignment-operators (+=, -=, *=, /=, ^=, ++, --), automatic and static local variables, arrays (hashes) with the delete element operator.  Several test files are made.  This level of implementation can easily be expanded by some new operators and features, for example, _until_ and _unless_ statements, more C-like operators (, and ?:), ...
 
