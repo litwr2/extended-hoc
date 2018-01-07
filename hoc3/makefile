@@ -2,11 +2,11 @@ COPS = -DLEX
 
 hoc: hoc.cpp.y hoc.cpp.l makefile
 	-lex hoc.cpp.l
-	yacc hoc.cpp.y
-	g++ -o hoc $(COPS) y.tab.c
+	yacc $<
+	g++ -o $@ $(COPS) y.tab.c
 
 hoc.cpp.l:
-	echo >hoc.cpp.l
+	echo >$@
 
 clean:
 	rm -f y.tab.c lex.yy.c hoc *.o
